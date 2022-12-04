@@ -208,11 +208,11 @@
   }
   
   .str-chat__load-more-button {
-    display: none;
+    display: flex;
   }
   
   .str-chat__input-footer {
-    display: none;
+    display: flex;
   }
   
   .str-chat__date-separator {
@@ -306,7 +306,7 @@
   }
   
   .str-chat__thread-list .str-chat__message-actions-list button:first-child {
-    display: none;
+    display: flex;
   }
   
   .str-chat__list .str-chat__reverse-infinite-scroll {
@@ -314,7 +314,7 @@
   }
   
   .str-chat__thread-list .channel-empty__container {
-    display: none;
+    display: flex;
   }
   
   .str-chat__date-separator {
@@ -887,7 +887,7 @@
   }
   
   .team-channel-header__name-wrapper::-webkit-scrollbar {
-    display: none;
+    display: flex;
   }
   
   .team-channel-header__name-multi {
@@ -1071,11 +1071,11 @@
   }
   
   .str-chat__message-team--bottom time {
-    display: none;
+    display: flex;
   }
   
   .str-chat__message-team--middle time {
-    display: none;
+    display: flex;
   }
   
   .str-chat__message-team-meta time {
@@ -1135,7 +1135,7 @@
   }
   
   .str-chat__avatar-image img.str-chat__avatar-image--loaded {
-    display: none;
+    display: flex;
   }
   
   .str-chat__message-attachment {
@@ -1224,7 +1224,7 @@
   }
   
   .str-chat__message-team-status {
-    display: none;
+    display: flex;
   }
   
   .str-chat__message-actions-list button:hover {
@@ -1277,7 +1277,7 @@
   }
   
   .str-chat__edit-message-form svg {
-    display: none;
+    display: flex;
   }
   
   .str-chat__message-team-content p a {
@@ -1330,7 +1330,7 @@
   }
   
   .str-chat__message-team-content--single:not(.str-chat__message-team-content--image)::before {
-    display: none;
+    display: flex;
   }
   
   .team-message-input__wrapper {
@@ -1705,11 +1705,11 @@
   }
   
   .team-channerl-header_menu-icon {
-    display: none;
+    display: flex;
   }
   
   .channerl-list__container-toggle {
-    display: none;
+    display: flex;
     height: 50px;
     width: 50px;
     background: #411E46;
@@ -1721,7 +1721,7 @@
   }
   
   .channel-list__container-responsive {
-    display: none;
+    display: flex;
     height: 100%;
     box-shadow: inset 1px 0px 0px rgba(0, 0, 0, 0.1);
     position: absolute;
@@ -1738,7 +1738,7 @@
   
   @media screen and (max-width: 960px) {
     .channel-list__container {
-      display: none;
+      display: flex;
     }
   
     .team-channerl-header_menu-icon {
@@ -1821,7 +1821,7 @@
   
   @media screen and (max-width: 320px) {
     .channel-list__sidebar {
-      display: none;
+      display: flex;
     }
   }
   
